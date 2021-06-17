@@ -1,0 +1,5 @@
+name: PacketReceiver
+version: 0.0.1
+main: de.rayzs.packetreceiver.plugin.PacketReceiver
+author: Rayzs_YT
+load: STARTUP
