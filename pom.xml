@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>0.0.1</modelVersion>
+
+    <groupId>de.rayzs.packetreceiver</groupId>
+    <artifactId>PacketReceiver</artifactId>
+    <version>0.0.1-BETA</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+	<repositories>
+		<repository>
+			<id>minecraft</id>
+			<url>https://your-repo.net/</url>
+		</repository>
+	</repositories>
+	<dependencies>
+		<dependency>
+			<groupId>org.spigotmc</groupId>
+			<artifactId>spigot</artifactId>
+			<version>1.8.8</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>
